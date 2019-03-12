@@ -28,7 +28,7 @@ ROBOTSTXT_OBEY = False
 # Configure a delay for requests for the same website (default: 0)
 # See https://doc.scrapy.org/en/latest/topics/settings.html#download-delay
 # See also autothrottle settings and docs
-# DOWNLOAD_DELAY = 0.25
+DOWNLOAD_DELAY = 0.25
 # The download delay setting will honor only one of:
 #CONCURRENT_REQUESTS_PER_DOMAIN = 16
 #CONCURRENT_REQUESTS_PER_IP = 16
@@ -95,9 +95,14 @@ IMAGES_STORE = os.path.join(project_dir, 'images')
 #HTTPCACHE_DIR = 'httpcache'
 #HTTPCACHE_IGNORE_HTTP_CODES = []
 #HTTPCACHE_STORAGE = 'scrapy.extensions.httpcache.FilesystemCacheStorage'
-PAGE_MAX_NUM = 465
+PAGE_MAX_NUM = 463
 RANDOM_UA_TYPE = "chrome"
 MYSQL_HOST = "localhost"
 MYSQL_DBNAME = "fiction_crawl"
 MYSQL_USER = "root"
 MYSQL_PASSWORD = "root"
+
+SCHEDULER = "scrapy_redis_bloomfilter.scheduler.Scheduler"
+DUPEFILTER_CLASS = "scrapy_redis_bloomfilter.dupefilter.RFPDupeFilter"
+BLOOMFILTER_HASH_NUMBER = 6
+BLOOMFILTER_BIT = 30

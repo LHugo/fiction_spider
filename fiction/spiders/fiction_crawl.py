@@ -1,20 +1,21 @@
 # -*- coding: utf-8 -*-
 import scrapy
 from fiction.settings import PAGE_MAX_NUM
-import datetime
 from fiction.items import FictionDetails, FictionContent
 from scrapy.loader import ItemLoader
 from urllib.parse import urljoin
 import re
+from scrapy_redis.spiders import RedisSpider
 
 
-class FictionCrawlSpider(scrapy.Spider):
+class FictionCrawlSpider(RedisSpider):
     name = 'fiction_crawl'
     allowed_domains = ['xs.sogou.com']
-    start_urls = ['https://xs.sogou.com/0_0_1_0_heat/']
+    redis_key = 'fiction_crawl:start_urls'
+    # start_urls = ['https://xs.sogou.com/0_0_1_0_heat/?pageNo=1']
 
     def parse(self, response):
-        for i in range(PAGE_MAX_NUM):
+        for i in range(2, PAGE_MAX_NUM+1):
             book_nodes = response.xpath("//ul[@class='filter-ret clear']/li")
             for book_node in book_nodes:
                 front_image_url = urljoin('https:', book_node.xpath(".//img/@src").extract()[0])

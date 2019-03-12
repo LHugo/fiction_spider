@@ -8,13 +8,6 @@
 import scrapy
 import re
 import datetime
-from urllib.parse import urljoin
-
-
-class FictionItem(scrapy.Item):
-    # define the fields for your item here like:
-    # name = scrapy.Field()
-    pass
 
 
 class FictionDetails(scrapy.Item):
