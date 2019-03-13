@@ -95,7 +95,6 @@ IMAGES_STORE = os.path.join(project_dir, 'images')
 #HTTPCACHE_DIR = 'httpcache'
 #HTTPCACHE_IGNORE_HTTP_CODES = []
 #HTTPCACHE_STORAGE = 'scrapy.extensions.httpcache.FilesystemCacheStorage'
-PAGE_MAX_NUM = 463
 RANDOM_UA_TYPE = "chrome"
 MYSQL_HOST = "localhost"
 MYSQL_DBNAME = "fiction_crawl"

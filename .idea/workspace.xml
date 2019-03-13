@@ -2,23 +2,148 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6f3e0b6f-8cfe-4592-899b-1f53ebda09f0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/scrapy_redis/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scrapy_redis/connection.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scrapy_redis/defaults.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scrapy_redis/dupefilter.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scrapy_redis/picklecompat.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scrapy_redis/pipelines.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scrapy_redis/queue.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scrapy_redis/scheduler.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scrapy_redis/spiders.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scrapy_redis/utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/bloomfilter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fiction/images/full/0bd7b1e1c4050ede31121a0776c7c59b03a52a66.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fiction/images/full/16e5f1b06fd400885bbd4133a5699067a407166b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fiction/images/full/3f0adabd09bd636c059426a44f53746a02623b19.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fiction/images/full/4c2c92fb4efc3bc7943e80d75681d2277e731872.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fiction/images/full/4d7256999a72aabfe3a0350137ed842c10df7358.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fiction/images/full/4f55e12ba1e8d6f2a0952f19c65dcc0504f62b53.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fiction/images/full/4fd124cb4e2c00376d2ab8685f8b9892034a69b1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fiction/images/full/7658292801cffb13322be46b2a7624400efef833.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fiction/images/full/885729f4b752c9fb45acb5b50ed674e6b6cfd037.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fiction/images/full/901604a1eb3949760d0abfdd4333b665abc35295.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fiction/images/full/947be0e57a1096b18d22c3e4a9a860227448402f.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fiction/images/full/a8446388460f9e5d1e9ae45d403e48a4d994a20e.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fiction/images/full/a86287a37a1acd51cd049cc021b79a658fdcf63b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fiction/images/full/c39de0a9b6a689d4dfc92f6c9408522f8937a89a.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fiction/images/full/c7e94b6843e3f18d0678b93f76a04d848c4989ea.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fiction/images/full/fdb55510c40e877306a2a0203b3e9bd98688f96f.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fiction/crawl_main.py" beforeDir="false" afterPath="$PROJECT_DIR$/fiction/crawl_main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fiction/items.py" beforeDir="false" afterPath="$PROJECT_DIR$/fiction/items.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fiction/fiction_images/full/00c81af2ae007a299de5a08a31232845e99acff1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fiction/fiction_images/full/0279ed2598bb0b6a77125b8bb99c3ebad80d4f1b.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fiction/fiction_images/full/03b506f6c3fb1c9fb1811ea947d705dbffa5df02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fiction/fiction_images/full/047344fbb8971b94bb43996d7c97bc434532e55e.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fiction/fiction_images/full/059b370cb7045d93c7f2e477f8264633f2687a1c.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fiction/fiction_images/full/0627a2869e0fe47e5ba546f3254587b37b34349e.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fiction/fiction_images/full/08d18935c95f651811b3e48ff999299c3cc46bb6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fiction/fiction_images/full/0e88ac571177104db9861297e26d743d1f37364b.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fiction/fiction_images/full/0fbe0ec528d0ec5c5cf6708a4d29020f4443c896.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fiction/fiction_images/full/0fe220fd9516bc43baca737d1c3ce722440e9f8a.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fiction/fiction_images/full/0ff538b987d5799b5a7fab706a9ff85b4f88209e.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fiction/fiction_images/full/107a8424799c3da7ee697be75facc6e7ca2e46a1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fiction/fiction_images/full/127cbbd702dd5e65fa2d611f2ad7e7931cdf367e.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fiction/fiction_images/full/148449b47d93bfd128c439f96073e875f1c66530.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fiction/fiction_images/full/18915279d8395439dd4a80e03fa55baa8d8c063d.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fiction/fiction_images/full/191d70366b913e88c90f3333a143c8a8bf2b5444.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fiction/fiction_images/full/1930d69f0b11f249db861957e54da54fef8c8b9a.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fiction/fiction_images/full/1b825d7a9afd6827127b8259fa3701350d149f78.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fiction/fiction_images/full/1fab76df80839e688ba90fd255d38124e8b683a1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fiction/fiction_images/full/207c08b6f988adf5a05f102a24fdc31a5b9fe0b4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fiction/fiction_images/full/2185ba4012a54530cd4cedf2d7b91d1a75dc37a0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fiction/fiction_images/full/2504b83ec42690afbb85a5b2b3cd7b57ad6c3568.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fiction/fiction_images/full/262123f9444c0b592e81a818cc5afd2a5de4a260.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fiction/fiction_images/full/280e7a4e182949ced2fcd736a49d2f0e4e2e910a.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fiction/fiction_images/full/29976a30a808187f32f6cae83118adc218e4cd45.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fiction/fiction_images/full/2a71e96a1d3114e4c2c9fed5268e7841ad9eaffa.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fiction/fiction_images/full/2c16d4a3e11a3e8c399a1f69eda5196a5ffcecaf.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fiction/fiction_images/full/308e328bdef71587562d2c4c6bb2a0cb753102ad.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fiction/fiction_images/full/32512b76fb7143b35477de9eb82bbc4ed6e6723d.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fiction/fiction_images/full/3258ca5e4abab017cb65c8f1745a39513d3f7a2c.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fiction/fiction_images/full/32a06e2a3da6d20e7dc0c17e0aa0484ed08fbfa6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fiction/fiction_images/full/344f0112d6c9240ddaf39fb2ff150e24e049db09.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fiction/fiction_images/full/348568d35356792e2f2bea05f935ffb3d950c8ab.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fiction/fiction_images/full/3632acea1bd97be0d48969f150db0a9ca7c36e10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fiction/fiction_images/full/3780b089c021303e2b827196b4c08597be3bc50e.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fiction/fiction_images/full/37d695edcd950c8f64a131f37bd0c12b646ba2f6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fiction/fiction_images/full/38d818f41774fa2566c1f9301769c8951c416e57.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fiction/fiction_images/full/3a76e42bbfbe407a8eeb2162f2973f6eeefa0c73.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fiction/fiction_images/full/3b64b70fe5b1059e6f6d6a240355cee81a8ff9f4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fiction/fiction_images/full/3baa25014bf26cc12020baf539c2aa178abe8e8d.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fiction/fiction_images/full/3c036828eba9fff2cb406b9ffb3748ab5af04939.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fiction/fiction_images/full/3d8137b655a282afdfb3d55cba954cc55b2ea81b.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fiction/fiction_images/full/41bd3f77b16b3439cfc953b12cdd0a3ea1df474a.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fiction/fiction_images/full/42a8a0be029cafb231bd06244f45b74df6665b0d.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fiction/fiction_images/full/4535f2f69d400c5c41c4801d7a25352f6a3fe738.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fiction/fiction_images/full/458822b223bc8dc97d1bfd16bc26fc9577d623a7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fiction/fiction_images/full/48712d30d391077aa982053019eb1f0d5eb77c00.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fiction/fiction_images/full/48af35cadb23c454c8bc5347ac42cf09bdd3b393.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fiction/fiction_images/full/4a99d815fc9e4b2153735d695934d3202fe81adb.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fiction/fiction_images/full/568c982c00064d95f26248f79a1fef4fe3533750.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fiction/fiction_images/full/5b73eb4b82f91afb5d166b40c9565a5888f6d991.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fiction/fiction_images/full/5b9e37f860e7c8f790f1cdb24dec1915322b9873.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fiction/fiction_images/full/5cd8e618a32b317b1a68c17772b747068e63a2d6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fiction/fiction_images/full/5fa324a5a82f8d63085c2c639a2cccb6be377cdd.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fiction/fiction_images/full/628166908fa580f4af5621a4c84a9544c85c5981.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fiction/fiction_images/full/64c60dafa17b8ae6225b61f77cda536f76f1f888.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fiction/fiction_images/full/65920529709bed11500a9fd0c236222502a41c19.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fiction/fiction_images/full/67d92085d892c38b743f393599356ce7d7102dcd.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fiction/fiction_images/full/6c8562721f6ca4d306466d0ac39f819902c5cc89.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fiction/fiction_images/full/6d1db1ed48be80344d97505263a411df6c32117e.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fiction/fiction_images/full/707dabd1706012c71aa8a4951438a51e2f58edf3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fiction/fiction_images/full/73d4acd99b55fcf25a607da4533da181086d1992.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fiction/fiction_images/full/7485e02e20c06839d5f52f6bd1f03f303c0fb5d0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fiction/fiction_images/full/752eaa0d8ee8397b47288d8bd03f49630d51ffb5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fiction/fiction_images/full/784d75129bbd40d80f8f192b92ff7dd415c1d4be.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fiction/fiction_images/full/7bc08b8e2c4d4941f109a34279916b78546cb6f8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fiction/fiction_images/full/7e54695bccda5253135e640151bd1c4039fe5cdb.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fiction/fiction_images/full/807ae35a73b0becbb4da6901e4c6a2e1ab34f555.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fiction/fiction_images/full/8144b59003ee75842e1d8c04198cf9fb5ee995ff.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fiction/fiction_images/full/8246abcbe2fd3f9594d2eceed6e8f3d9f5b07293.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fiction/fiction_images/full/873bcd60f03ef60bf40ad2cc90f32233998e7ce6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fiction/fiction_images/full/8b1787a77297b5ddea8e3f350362cc30002525e2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fiction/fiction_images/full/8bdc89070aeac61252d481c1d92a8eaa867da56f.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fiction/fiction_images/full/8d47f18db8aab67978f2c47b1d8f99cb1c2f1ae1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fiction/fiction_images/full/8fefb30fd277c4fc82de1a59b8ae72dc5b5c6589.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fiction/fiction_images/full/91dc93852510fc6c3d07067b6503188281553734.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fiction/fiction_images/full/927e07c3d3042fe01c2865b18c7dafcc5a24b2dd.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fiction/fiction_images/full/979ffbb0fa2c3a49acd6c0bc8ea9cfec4131fc54.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fiction/fiction_images/full/986492f6b4baecfb998585f824d5710691b3f5b6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fiction/fiction_images/full/9ee8e6333e7a49ec42160ee9878163c758ce1801.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fiction/fiction_images/full/9fd50f1af4cc83c84b7a60738c4d5c594232bd67.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fiction/fiction_images/full/a4c6ced6073c55079a658b487dea682bff197229.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fiction/fiction_images/full/a5f2e0a9269ab446a3300fe6235f99a987eaf34a.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fiction/fiction_images/full/a5f70727718403b804121e0273c68753e3b04655.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fiction/fiction_images/full/a9fa9136df94b175ad1b09152e4d2dd18330ec78.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fiction/fiction_images/full/b1536dfdebf1d70435868f3d961d58b29076f30a.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fiction/fiction_images/full/b208b38a4a9b5fe066a1a3a99f40d87cbbec85f3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fiction/fiction_images/full/b2e9474e988dde406dc5a451548a29c3e09b6f67.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fiction/fiction_images/full/b4d694ff0eb5d7140dd205c7bb7ef9903dafa5ed.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fiction/fiction_images/full/b5e3364b6cab161b42d522a46377c3ad0c278d69.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fiction/fiction_images/full/b93f1baa906d86b482c7ccee0051803a73e59b61.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fiction/fiction_images/full/bb27c851b7104a5bd7811ea7dbbaa90d2881f3b6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fiction/fiction_images/full/bc7dca819fe13da20461bba70a8ac00efbed8776.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fiction/fiction_images/full/bd60084629081d2bf68b5b0a4adcfc3e6c16c0bc.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fiction/fiction_images/full/bdb99db186aaa50b9e29b954bbed11afb8268639.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fiction/fiction_images/full/c3e246ebcd9ad39f75cc1aad8f7f0b48aa8d0397.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fiction/fiction_images/full/c411d842960ce527ad61835671385c1deb18b424.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fiction/fiction_images/full/c460b3553673c7785ef39321f38cc8739b96e1fe.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fiction/fiction_images/full/c51a46d7ea3facfde732d6bdaea5c22f8b5c4810.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fiction/fiction_images/full/c750778df7796dfe0185603aa28d5e2cf36f7f14.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fiction/fiction_images/full/c843889a8cf286a0d1c8a75ef1c3a842ef7e565d.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fiction/fiction_images/full/cde54bdeeb72ba673744f37ca8c436df02dc10e4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fiction/fiction_images/full/d0e8a5c26de27db5eeda856163d9fa993a748375.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fiction/fiction_images/full/da18b36c797f32a3510966785b88ed1dd1f6f9b2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fiction/fiction_images/full/dab76812318caee5c80410929087738713f3e33a.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fiction/fiction_images/full/db4fdb17ffea261052f7f45d7481da6e20c12b55.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fiction/fiction_images/full/dbfc7a70b80e6b33ae706c6cdb8408d37730ebf6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fiction/fiction_images/full/e21ae388b48d93cb2bfe677b849d77f141641e11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fiction/fiction_images/full/e231cc78ac951ec2c1273b2fbad6139c62947fbc.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fiction/fiction_images/full/e353e31fc7483e15a449af6b90e89e39e477b5fb.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fiction/fiction_images/full/e5fd3f4702ee0a3e2a6452db8790f6bf0a04c4d1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fiction/fiction_images/full/e7326a0b55d0b09ab1650282b8bb86a2b377faa4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fiction/fiction_images/full/e73697b115e71c292bb7c07efa85ba17ba15947b.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fiction/fiction_images/full/e7e66b13132ad5b3fa8b9ab5ea02d14bcdaf39c0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fiction/fiction_images/full/ed4e0461e53cc6ae63e5c3af2c345ed421cee88b.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fiction/fiction_images/full/edb10213855ad5538b870abac8a4f2c7173dea45.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fiction/fiction_images/full/ee509c01071f755180062e9055aaec87d5b3d68f.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fiction/fiction_images/full/f6f4631ae7c8d4da3fb551180303d15dc56f87c9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fiction/fiction_images/full/f730d2331b1b24585b7842a4916ba4c2290820c5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fiction/fiction_images/full/f7fafb8f763e42832fa1c63a3728250be03a23c0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fiction/fiction_images/full/f8f3e904f65f0e1afca5d338aeb09e576145bfac.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fiction/fiction_images/full/fb4cabb6bff1d493f4c95dd8da029751a5b138ec.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/fiction/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/fiction/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fiction/spiders/fiction_crawl.py" beforeDir="false" afterPath="$PROJECT_DIR$/fiction/spiders/fiction_crawl.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fiction/spiders/fictioncrawl.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,8 +156,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/fiction/spiders/fiction_crawl.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="14" column="66" lean-forward="true" selection-start-line="14" selection-start-column="66" selection-end-line="14" selection-end-column="66" />
+            <state relative-caret-position="114">
+              <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
               <folding>
                 <element signature="e#24#37#0" expanded="true" />
               </folding>
@@ -43,8 +168,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/fiction/items.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="223">
-              <caret line="81" column="36" lean-forward="true" selection-start-line="81" selection-start-column="36" selection-end-line="81" selection-end-column="36" />
+            <state relative-caret-position="1501">
+              <caret line="81" column="36" selection-start-line="81" selection-start-column="36" selection-end-line="81" selection-end-column="36" />
               <folding>
                 <element signature="e#153#166#0" expanded="true" />
               </folding>
@@ -55,8 +180,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/fiction/middlewares.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1002">
-              <caret line="109" column="29" lean-forward="true" selection-start-line="109" selection-start-column="29" selection-end-line="109" selection-end-column="29" />
+            <state relative-caret-position="2052">
+              <caret line="109" column="29" selection-start-line="109" selection-start-column="29" selection-end-line="109" selection-end-column="29" />
               <folding>
                 <element signature="e#169#195#0" expanded="true" />
               </folding>
@@ -64,14 +189,14 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/fiction/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="508">
-              <caret line="104" column="37" selection-start-line="104" selection-start-column="37" selection-end-line="104" selection-end-column="37" />
+            <state relative-caret-position="1938">
+              <caret line="103" selection-start-line="103" selection-end-line="106" selection-end-column="20" />
               <folding>
                 <element signature="e#24#33#0" expanded="true" />
-                <marker date="1552397967017" expanded="true" signature="1831:1988" ph="..." />
+                <marker date="1552459225912" expanded="true" signature="1831:1988" ph="..." />
               </folding>
             </state>
           </provider>
@@ -80,7 +205,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/fiction/pipelines.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="332">
+            <state relative-caret-position="627">
               <caret line="36" column="74" selection-start-line="36" selection-start-column="74" selection-end-line="36" selection-end-column="74" />
               <folding>
                 <element signature="e#193#243#0" expanded="true" />
@@ -89,11 +214,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/fiction/crawl_main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="219">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="190">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -131,9 +256,9 @@
         <option value="$PROJECT_DIR$/fiction/items.py" />
         <option value="$PROJECT_DIR$/utils/bloomfilter.py" />
         <option value="$PROJECT_DIR$/fiction/spiders/test.py" />
+        <option value="$PROJECT_DIR$/fiction/crawl_main.py" />
         <option value="$PROJECT_DIR$/fiction/spiders/fiction_crawl.py" />
         <option value="$PROJECT_DIR$/fiction/settings.py" />
-        <option value="$PROJECT_DIR$/fiction/crawl_main.py" />
       </list>
     </option>
   </component>
@@ -148,7 +273,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -161,16 +285,11 @@
               <item name="fiction" type="462c0819:PsiDirectoryNode" />
               <item name="fiction" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="fiction" type="b2602c69:ProjectViewProjectNode" />
-              <item name="fiction" type="462c0819:PsiDirectoryNode" />
-              <item name="fiction" type="462c0819:PsiDirectoryNode" />
-              <item name="fiction_images" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -299,7 +418,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.27213115" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.6704918" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.5608215" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -358,12 +477,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fiction/fiction_images/full/0e88ac571177104db9861297e26d743d1f37364b.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fiction/fiction_images/full/e7326a0b55d0b09ab1650282b8bb86a2b377faa4.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/fiction/fiction_images/full/0e88ac571177104db9861297e26d743d1f37364b.jpg" />
+    <entry file="file://$PROJECT_DIR$/fiction/fiction_images/full/e7326a0b55d0b09ab1650282b8bb86a2b377faa4.jpg" />
     <entry file="file://D:/Evns/py3scrapy/Lib/site-packages/twisted/python/util.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="94">
@@ -385,9 +500,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fiction/fiction_images/full/0fbe0ec528d0ec5c5cf6708a4d29020f4443c896.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/fiction/fiction_images/full/0fbe0ec528d0ec5c5cf6708a4d29020f4443c896.jpg" />
     <entry file="file://$USER_HOME$/.PyCharmCE2018.3/system/python_stubs/-1813285404/builtins.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-33">
@@ -426,40 +539,20 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/fiction/spiders/test.py" />
-    <entry file="file://$PROJECT_DIR$/fiction/pipelines.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="36" column="74" selection-start-line="36" selection-start-column="74" selection-end-line="36" selection-end-column="74" />
-          <folding>
-            <element signature="e#193#243#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/fiction/spiders/fiction_crawl.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="14" column="66" lean-forward="true" selection-start-line="14" selection-start-column="66" selection-end-line="14" selection-end-column="66" />
+        <state relative-caret-position="114">
+          <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
           <folding>
             <element signature="e#24#37#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fiction/crawl_main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/fiction/items.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="81" column="36" lean-forward="true" selection-start-line="81" selection-start-column="36" selection-end-line="81" selection-end-column="36" />
+        <state relative-caret-position="1501">
+          <caret line="81" column="36" selection-start-line="81" selection-start-column="36" selection-end-line="81" selection-end-column="36" />
           <folding>
             <element signature="e#153#166#0" expanded="true" />
           </folding>
@@ -468,8 +561,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/fiction/middlewares.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1002">
-          <caret line="109" column="29" lean-forward="true" selection-start-line="109" selection-start-column="29" selection-end-line="109" selection-end-column="29" />
+        <state relative-caret-position="2052">
+          <caret line="109" column="29" selection-start-line="109" selection-start-column="29" selection-end-line="109" selection-end-column="29" />
           <folding>
             <element signature="e#169#195#0" expanded="true" />
           </folding>
@@ -478,11 +571,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/fiction/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="508">
-          <caret line="104" column="37" selection-start-line="104" selection-start-column="37" selection-end-line="104" selection-end-column="37" />
+        <state relative-caret-position="1938">
+          <caret line="103" selection-start-line="103" selection-end-line="106" selection-end-column="20" />
           <folding>
             <element signature="e#24#33#0" expanded="true" />
-            <marker date="1552397967017" expanded="true" signature="1831:1988" ph="..." />
+            <marker date="1552459225912" expanded="true" signature="1831:1988" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fiction/pipelines.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="627">
+          <caret line="36" column="74" selection-start-line="36" selection-start-column="74" selection-end-line="36" selection-end-column="74" />
+          <folding>
+            <element signature="e#193#243#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fiction/crawl_main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
           </folding>
         </state>
       </provider>

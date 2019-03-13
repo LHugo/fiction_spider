@@ -1,6 +1,5 @@
 # -*- coding: utf-8 -*-
 import scrapy
-from fiction.settings import PAGE_MAX_NUM
 from fiction.items import FictionDetails, FictionContent
 from scrapy.loader import ItemLoader
 from urllib.parse import urljoin
@@ -15,20 +14,20 @@ class FictionCrawlSpider(RedisSpider):
     # start_urls = ['https://xs.sogou.com/0_0_1_0_heat/?pageNo=1']
 
     def parse(self, response):
-        for i in range(2, PAGE_MAX_NUM+1):
-            book_nodes = response.xpath("//ul[@class='filter-ret clear']/li")
-            for book_node in book_nodes:
-                front_image_url = urljoin('https:', book_node.xpath(".//img/@src").extract()[0])
-                fiction_id = re.match('^/book/(\\d+)/$', book_node.xpath("./a/@href").extract()[0]).group(1)
-                fiction_detail_url = "https://xs.sogou.com/book/{}/".format(fiction_id)
-                fiction_chapter_url = "https://xs.sogou.com/list/{}/".format(fiction_id)
-                yield scrapy.Request(url=fiction_detail_url,
-                                     meta={"front_image_url": front_image_url, "fiction_id": fiction_id},
-                                     callback=self.parse_fiction_details)
-                yield scrapy.Request(url=fiction_chapter_url, meta={"fiction_id": fiction_id},
-                                     callback=self.parse_chapter_url)
-            next_url = 'https://xs.sogou.com/0_0_1_0_heat/?pageNo={0}'.format(i)
-            yield scrapy.Request(url=next_url, callback=self.parse)
+        book_nodes = response.xpath("//ul[@class='filter-ret clear']/li")
+        for book_node in book_nodes:
+            front_image_url = urljoin('https:', book_node.xpath(".//img/@src").extract()[0])
+            fiction_id = re.match('^/book/(\\d+)/$', book_node.xpath("./a/@href").extract()[0]).group(1)
+            fiction_detail_url = "https://xs.sogou.com/book/{}/".format(fiction_id)
+            fiction_chapter_url = "https://xs.sogou.com/list/{}/".format(fiction_id)
+            yield scrapy.Request(url=fiction_detail_url,
+                                 meta={"front_image_url": front_image_url, "fiction_id": fiction_id},
+                                 callback=self.parse_fiction_details)
+            yield scrapy.Request(url=fiction_chapter_url, meta={"fiction_id": fiction_id},
+                                 callback=self.parse_chapter_url)
+        next_url = urljoin('https://xs.sogou.com', response.xpath("//div[@id='pagination']/a[last()-1]/@href").extract()[0])
+
+        yield scrapy.Request(url=next_url, callback=self.parse)
 
     def parse_fiction_details(self, response):
         fiction_details_item_loader = ItemLoader(item=FictionDetails(), response=response)
