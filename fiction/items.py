@@ -27,9 +27,8 @@ class FictionDetails(scrapy.Item):
     def get_insert_sql(self):
         insert_sql = """
                     insert into fiction_details(fiction_id, fiction_url, fiction_name, author, fiction_tag, 
-                    fiction_state, words_num, fiction_origin, fiction_abstract, front_image_url, front_image_path, 
-                    crawl_time)
-                    VALUES(%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
+                    fiction_state, words_num, fiction_origin, fiction_abstract, front_image_url, crawl_time)
+                    VALUES(%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
                     ON DUPLICATE KEY UPDATE fiction_state=VALUES(fiction_state),words_num=VALUES(words_num),
                                             crawl_time=VALUES(crawl_time)          
                 """
@@ -39,24 +38,19 @@ class FictionDetails(scrapy.Item):
         author = re.match('.*：(.*)', "".join(self["author"])).group(1)
         fiction_tag = "".join(self["fiction_tag"])
         fiction_state = "".join(self["fiction_state"])
-        if "万" in self["words_num"]:
-            words_num = re.match('.*：(.*万)', "".join(self["words_num"])).group(1).replace("\r\n", "").strip()
-        else:
-            words_num = 0
+        words_num = re.match('字数：(.*万)', "".join(self["words_num"])).group(1).replace("\r\n", "").strip()
         fiction_origin = re.match('.*：(.*)', "".join(self["fiction_origin"])).group(1)
-        fiction_abstract = self["fiction_abstract"][0]
+        fiction_abstract = self["fiction_abstract"][0].replace("\r\n", "").strip()
         front_image_url = "".join(self["front_image_url"])
-        front_image_path = "".join(self["front_image_path"])
         crawl_time = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-
         items = (fiction_id, fiction_url, fiction_name, author, fiction_tag, fiction_state, words_num, fiction_origin,
-                 fiction_abstract, front_image_url, front_image_path, crawl_time)
-
+                 fiction_abstract, front_image_url, crawl_time)
         return insert_sql, items
 
 
 class FictionContent(scrapy.Item):
     fiction_id = scrapy.Field()
+    fiction_name = scrapy.Field()
     chapter_id = scrapy.Field()
     chapter_update_time = scrapy.Field()
     chapter_num = scrapy.Field()
@@ -66,19 +60,21 @@ class FictionContent(scrapy.Item):
 
     def get_insert_sql(self):
         insert_sql = """
-                    insert into fiction_content(fiction_id, chapter_id, chapter_update_time, chapter_num, chapter_name, 
-                    chapter_content, crawl_time)
-                    VALUES(%s, %s, %s, %s, %s, %s, %s)
+                    insert into fiction_content(fiction_id, fiction_name, chapter_id, chapter_update_time, chapter_num, 
+                    chapter_name, chapter_content, crawl_time)
+                    VALUES(%s, %s, %s, %s, %s, %s, %s, %s)
                     ON DUPLICATE KEY UPDATE crawl_time=VALUES(crawl_time),chapter_content=VALUES(chapter_content)       
                 """
         fiction_id = self["fiction_id"][0]
+        fiction_name = self["fiction_name"][0]
         chapter_id = self["chapter_id"][0]
         chapter_update_time = re.match('.*更新时间：(.*)', self["chapter_update_time"][0], re.S).group(1)
         chapter_num = int(re.match('.*字数：(\\d+).*', "".join(self["chapter_num"]), re.S).group(1))
         chapter_name = self["chapter_name"][0]
-        chapter_content = "".join(self["chapter_content"])
+        chapter_content = "".join(self["chapter_content"]).replace("\r\n", "").strip()
         crawl_time = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 
-        items = (fiction_id, chapter_id, chapter_update_time, chapter_num, chapter_name, chapter_content, crawl_time)
+        items = (fiction_id, fiction_name, chapter_id, chapter_update_time, chapter_num, chapter_name, chapter_content,
+                 crawl_time)
 
         return insert_sql, items

@@ -69,7 +69,7 @@ DOWNLOADER_MIDDLEWARES = {
 # See https://doc.scrapy.org/en/latest/topics/item-pipeline.html
 ITEM_PIPELINES = {
     'fiction.pipelines.MysqlTwistedPipeline': 300,
-    'fiction.pipelines.FictionImagesPipeline': 1
+    # 'fiction.pipelines.FictionImagesPipeline': 1
 }
 IMAGES_URLS_FIELD = "front_image_url"
 project_dir = os.path.abspath(os.path.dirname(__file__))
@@ -100,6 +100,10 @@ MYSQL_HOST = "localhost"
 MYSQL_DBNAME = "fiction_crawl"
 MYSQL_USER = "root"
 MYSQL_PASSWORD = "root"
+
+REDIS_HOST = "localhost"
+REDIS_PORT = 6379
+# REDIS_PASSWORD = "hugol"
 
 SCHEDULER = "scrapy_redis_bloomfilter.scheduler.Scheduler"
 DUPEFILTER_CLASS = "scrapy_redis_bloomfilter.dupefilter.RFPDupeFilter"

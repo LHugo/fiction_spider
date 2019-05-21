@@ -4,7 +4,7 @@
 #
 # Don't forget to add your pipeline to the ITEM_PIPELINES setting
 # See: https://doc.scrapy.org/en/latest/topics/item-pipeline.html
-from scrapy.pipelines.images import ImagesPipeline
+# from scrapy.pipelines.images import ImagesPipeline
 from twisted.enterprise import adbapi
 import pymysql
 import pymysql.cursors
@@ -15,17 +15,32 @@ class FictionPipeline(object):
         return item
 
 
-class FictionImagesPipeline(ImagesPipeline):
-    def item_completed(self, results, item, info):
-        if isinstance(item, dict) or "front_image_path" in item.fields:
-            global image_file_path
-            for ok, value in results:
-                image_file_path = value["path"]
-            item['front_image_path'] = image_file_path
+# class FictionImagesPipeline(ImagesPipeline):
+#     def item_completed(self, results, item, info):
+#         if isinstance(item, dict) or "front_image_path" in item.fields:
+#             global image_file_path
+#             for ok, value in results:
+#                 image_file_path = value["path"]
+#             item['front_image_path'] = image_file_path
+#
+#         return item
 
-        return item
+
+# 采用同步的机制将数据写入mysql数据库中
+class MysqlPipeline(object):
+    def __init__(self):
+        self.connect = pymysql.connect('localhost', 'root', 'root', 'fiction_crawl', charset='utf8',
+                                       use_unicode=True)
+        self.cursor = self.connect.cursor()
+
+    def process_item(self, item, spider):
+
+        insert_sql, items = item.get_insert_sql()
+        self.cursor.execute(insert_sql, items)
+        self.connect.commit()
 
 
+# 异步
 class MysqlTwistedPipeline(object):
     def __init__(self, dbpool):
         self.dbpool = dbpool
